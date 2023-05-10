@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>09_속성선택자</title>
+        
+        <style>
+        
+            input {
+                border: 1px solid #ccc;
+                padding: 10px;
+                
+            }
+        
+            /*속성 선택자*/
+            
+            input[placeholder] {
+                background-color: yellow;
+            }
+            
+            /*속성값 선택자*/
+            input[type="password"] {
+                background-color: darkseagreen;
+                
+            }
+            
+        </style>
+        
+        
+    </head>
+    <body>
+        
+        <input type="text" placeholder="아이디 입력">
+        <input type="password">
+        <input type="email" placeholder="이메일 입력">
+        
+        
+        
+        
+        
+    </body>
+</html>
